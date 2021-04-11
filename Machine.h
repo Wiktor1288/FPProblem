@@ -2,6 +2,10 @@
 #define Machine_h
 
 
+class Machine{
 
+
+
+};
 
 #endif
