@@ -1,7 +1,6 @@
-#include <iostream>
 #include "Task.h"
 
-int Task::TaskID=0;
+int Task::AmountOFTask=0;
 
 int Task::ReturnValue(char IDValue){
     if(IDValue == 'T')
@@ -108,7 +107,6 @@ int Task::Return_TerminationTime_Operation(int OperatorID){
     }
 }
 
-
- int Task::ReturnID(){
-     return TaskID;
- }
+int Task::Return_TaskID(){
+    return TaskID;
+}
